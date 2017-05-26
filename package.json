@@ -1,0 +1,19 @@
+{
+  "name": "angular_app",
+  "version": "1.0.0",
+  "description": "sample angular app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bipender@github.com/Bipender/Angular2.git"
+  },
+  "author": "Bipender Singh <bipender93@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bipender/Angular2/issues"
+  },
+  "homepage": "https://github.com/Bipender/Angular2#readme"
+}
