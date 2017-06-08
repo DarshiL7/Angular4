@@ -1,21 +1,44 @@
 <header>
     <div class="header">
-        <div class="row">
-            <div class="siteTitle col-md-6 col-xl-6 col-md-offset-3">
+        <div class="row header_bar">
+            <div class="siteTitle col-xs-6 col-sm-6 col-md-6 col-xl-6 col-md-offset-3">
                 <h1>Tiffin Services</h1>
             </div>
-            <div class="userEntry col-md-1 col-xl-1 col-md-offset-2">
-                <button class="btn btn-default" >Sign in</button>
+            <div class="clear"></div>
+            <div class="userEntry col-xs-1 col-sm-1 col-md-1 col-xl-1">
+                
+
+                <button class="btn btn-default"  data-toggle="modal" data-target="#myModal">Sign in</button>
              </div>
         </div>
     </div>
 </header>
 <section>
+    <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
     <router-outlet></router-outlet>
+    
 </section>
 
 <footer>
-    <div class="footer">
+    <div class="row footer">
         @ created by Bipender Singh bipender93@gmail.com
     </div>
 </footer>

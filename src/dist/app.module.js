@@ -10,6 +10,9 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var ng_bootstrap_1 = require("@ng-bootstrap/ng-bootstrap");
 var app_component_1 = require("./app.component");
+var app_routes_1 = require("./app.routes");
+var loginCarousel_component_1 = require("./Login/loginCarousel.component");
+var login_component_1 = require("./Login/login.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -17,8 +20,8 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [ng_bootstrap_1.NgbModule.forRoot(), platform_browser_1.BrowserModule],
-        declarations: [app_component_1.AppComponent],
+        imports: [ng_bootstrap_1.NgbModule.forRoot(), platform_browser_1.BrowserModule, app_routes_1.App_Route_Module],
+        declarations: [app_component_1.AppComponent, loginCarousel_component_1.LoginCarousel, login_component_1.LoginAutorization],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

@@ -1,0 +1,19 @@
+.item{
+    height:  500px;
+}
+.carousel{
+    margin-top:15px;
+}
+.item>img{
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+.carousel-control{
+    height:30%;
+    margin-top:20%;
+    width:9%
+}
+.fa-arrow-right, .fa-arrow-left{
+    margin-top:60%;
+}
