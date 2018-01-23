@@ -13,17 +13,18 @@ var app_component_1 = require("./app.component");
 var app_routes_1 = require("./app.routes");
 var loginCarousel_component_1 = require("./Login/loginCarousel.component");
 var login_component_1 = require("./Login/login.component");
-var AppModule = (function () {
+var download_component_1 = require("./Download/download.component");
+var AppModule = /** @class */ (function () {
     function AppModule() {
     }
+    AppModule = __decorate([
+        core_1.NgModule({
+            imports: [ng_bootstrap_1.NgbModule.forRoot(), platform_browser_1.BrowserModule, app_routes_1.App_Route_Module],
+            declarations: [app_component_1.AppComponent, loginCarousel_component_1.LoginCarousel, login_component_1.LoginAutorization, download_component_1.DownloadComponent],
+            bootstrap: [app_component_1.AppComponent]
+        })
+    ], AppModule);
     return AppModule;
 }());
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [ng_bootstrap_1.NgbModule.forRoot(), platform_browser_1.BrowserModule, app_routes_1.App_Route_Module],
-        declarations: [app_component_1.AppComponent, loginCarousel_component_1.LoginCarousel, login_component_1.LoginAutorization],
-        bootstrap: [app_component_1.AppComponent]
-    })
-], AppModule);
 exports.AppModule = AppModule;
 //# sourceMappingURL=app.module.js.map

@@ -5,10 +5,11 @@ import { AppComponent } from './app.component';
 import { App_Route_Module } from './app.routes';
 import { LoginCarousel } from './Login/loginCarousel.component';
 import { LoginAutorization } from './Login/login.component';
+import { DownloadComponent } from './Download/download.component';
 
 @NgModule({
     imports: [NgbModule.forRoot(), BrowserModule, App_Route_Module],
-    declarations: [AppComponent, LoginCarousel, LoginAutorization],
+    declarations: [AppComponent, LoginCarousel, LoginAutorization, DownloadComponent],
     bootstrap: [AppComponent]
 })
 

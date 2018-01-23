@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginCarousel } from './Login/loginCarousel.component';
 import { ContactComponent } from './Contact/contact.component';
 import { HomeComponent } from './Home/home.component';
+import { DownloadComponent } from './Download/download.component'
 
 const App_Routes: Routes =[
     {path:'', component: LoginCarousel},

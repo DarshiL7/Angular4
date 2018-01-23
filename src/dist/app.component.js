@@ -18,24 +18,29 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var login_component_1 = require("./Login/login.component");
-var AppComponent = (function (_super) {
+var AppComponent = /** @class */ (function (_super) {
     __extends(AppComponent, _super);
     function AppComponent() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this.downloadUrls = [
+            'https://drive.google.com/uc?authuser=0&id=1HuxqF8iXEi_1cAAH1J9Onw9oUDCwilLG&export=download',
+            'https://drive.google.com/uc?authuser=0&id=1FPu8n3qKJGnqVf6RAsUYuI7OUCOtRZ26&export=download'
+        ];
+        _this.fileName = ['Javascript', 'Machine Learning'];
         _this.userName = "Bipender Singh";
         return _this;
     }
     AppComponent.prototype.open = function (content) {
         _super.prototype.open.call(this, content);
     };
+    AppComponent = __decorate([
+        core_1.Component({
+            selector: 'angular2-app',
+            templateUrl: './src/app/app.component.html',
+            styleUrls: ['./src/app/app.component.css']
+        })
+    ], AppComponent);
     return AppComponent;
 }(login_component_1.LoginAutorization));
-AppComponent = __decorate([
-    core_1.Component({
-        selector: 'angular2-app',
-        templateUrl: './src/app/app.component.html',
-        styleUrls: ['./src/app/app.component.css']
-    })
-], AppComponent);
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map
