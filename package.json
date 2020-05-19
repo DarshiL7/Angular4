@@ -7,6 +7,7 @@
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\"",
     "lite": "lite-server",
     "tsc": "tsc",
+    "build":"ng build",
     "tsc:w": "tsc -w"
   },
   "repository": {
